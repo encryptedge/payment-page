@@ -140,6 +140,9 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                         method="POST"
                                     >
                                         <div>
+                                            <h2 className="text-4xl font-extrabold dark:text-white">RCS CTF Ticket</h2>
+                                        </div>
+                                        <div>
                                             <label
                                                 htmlFor="name"
                                                 className="block text-sm font-medium leading-6 text-white"
