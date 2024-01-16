@@ -147,7 +147,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="name"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                Name
+                                                Full Name
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -168,7 +168,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="email"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                Email address
+                                                Email Address
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -211,7 +211,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="uni_id"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                University Id
+                                                College/University Id
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -231,7 +231,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="uni_name"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                University Name
+                                                College/University Name
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -251,7 +251,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="where_you_reside"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                Where You Reside
+                                                Where do You Reside?
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -277,7 +277,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 type="submit"
                                                 className="flex w-full justify-center rounded-md bg-primary px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
                                             >
-                                                Purchare Ticket
+                                                Purchase Ticket
                                             </button>
                                         </div>
                                     </form>
