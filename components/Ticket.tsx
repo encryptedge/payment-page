@@ -102,7 +102,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                     'Payment Failed! reach out us with order id ' +
                         response.error.metadata.order_id,
                     {
-                        duration: 30000,
+                        duration: 60000,
                     }
                 )
             })
