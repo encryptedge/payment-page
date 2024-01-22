@@ -90,9 +90,10 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
             const rzp1 = new Razorpay(options)
 
             toast.success(
-                'Payment initiated, wait for 10-15 seconds after payment',
+                'Payment initiated, wait for 30-60 seconds after payment! DO NOT RELOAD OR LEAVE THE PAGE',
                 {
                     position: 'top-right',
+                    duration: 60000,
                 }
             )
 
@@ -147,7 +148,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="name"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                Full Name
+                                                Full Name *
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -168,7 +169,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="email"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                Email Address
+                                                Email Address *
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -190,7 +191,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="contact_no"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                Contact Number
+                                                Contact Number *
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -251,7 +252,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="where_you_reside"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                Where do You Reside?
+                                                Where do You Reside? *
                                             </label>
                                             <div className="mt-2">
                                                 <input
