@@ -212,7 +212,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="uni_id"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                College/University Id
+                                                College/University Id (Registration Number) *
                                             </label>
                                             <div className="mt-2">
                                                 <input
@@ -232,7 +232,7 @@ export default function Ticket({ ticketType }: { ticketType: string }) {
                                                 htmlFor="uni_name"
                                                 className="block text-sm font-medium leading-6 text-white"
                                             >
-                                                College/University Name
+                                                College/University Name *
                                             </label>
                                             <div className="mt-2">
                                                 <input
