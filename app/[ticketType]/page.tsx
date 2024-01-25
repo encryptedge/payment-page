@@ -8,7 +8,7 @@ interface TicketPageProps {
     }
 }
 
-const ticketTypes = ['student_pass', 'standard_pass', 'professional_pass']
+const ticketTypes = ['offline_pass']
 
 function TicketPage({ params: { ticketType } }: TicketPageProps) {
     if(!ticketTypes.includes(ticketType)){
